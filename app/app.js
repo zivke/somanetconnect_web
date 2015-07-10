@@ -4,7 +4,8 @@
 var myApp = angular.module('myApp', [
   'ngRoute',
   'myApp.deviceList',
-  'myApp.counterControl'
+  'myApp.counterControl',
+  'myServices'
 ]);
 
 myApp.config(['$routeProvider',
