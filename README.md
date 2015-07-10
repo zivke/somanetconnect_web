@@ -87,10 +87,10 @@ app/                    --> all of the source files for the application
       version_test.js            --> "version" value service tests
       version-directive.js       --> custom directive that returns the current app version
       version-directive_test.js  --> version directive tests
-  view1/                --> the view1 view template and logic
-    view1.html            --> the partial template
-    view1.js              --> the controller logic
-    view1_test.js         --> tests of the controller
+  deviceList/                --> the deviceList view template and logic
+    deviceList.html            --> the partial template
+    deviceList.js              --> the controller logic
+    deviceList_test.js         --> tests of the controller
   view2/                --> the view2 view template and logic
     view2.html            --> the partial template
     view2.js              --> the controller logic
