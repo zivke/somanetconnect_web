@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.deviceList',
-  'myApp.view2',
+  'myApp.counterControl',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
