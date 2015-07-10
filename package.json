@@ -1,10 +1,10 @@
 {
-  "name": "angular-seed",
+  "name": "somanetconnect-web",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Web application used in conjunction with Synapticon's SOMANETconnect",
+  "repository": "",
+  "license": "",
   "devDependencies": {
     "bower": "^1.3.1",
     "http-server": "^0.6.1",
