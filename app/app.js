@@ -4,8 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.deviceList',
-  'myApp.counterControl',
-  'myApp.version'
+  'myApp.counterControl'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/deviceList'});

@@ -4,7 +4,7 @@ angular.module('myApp.counterControl', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/counterControl', {
-    templateUrl: 'counterControl/counterControl.html',
+    templateUrl: 'components/counterControl/counterControl.html',
     controller: 'counterControlCtrl'
   });
 }])
