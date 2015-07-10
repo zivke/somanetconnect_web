@@ -1,14 +1,18 @@
 'use strict';
 
-angular.module('myApp.counterControl', ['ngRoute'])
+var counterControl = angular.module('myApp.counterControl', ['ngRoute']);
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/counterControl', {
-    templateUrl: 'components/counterControl/counterControl.html',
-    controller: 'counterControlCtrl'
-  });
-}])
+counterControl.config(['$routeProvider',
+    function($routeProvider) {
+        $routeProvider.when('/counterControl', {
+            templateUrl: 'components/counterControl/counterControl.html',
+            controller: 'counterControlCtrl'
+        });
+    }
+]);
 
-.controller('counterControlCtrl', [function() {
+counterControl.controller('counterControlCtrl', [
+    function() {
 
-}]);
+    }
+]);
